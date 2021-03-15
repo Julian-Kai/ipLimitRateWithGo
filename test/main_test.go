@@ -1,7 +1,6 @@
 package test
 
 import (
-	"awesomeProject/internal/api/rest"
 	"fmt"
 	"io/ioutil"
 	"math/rand"
@@ -12,6 +11,8 @@ import (
 	"sync"
 	"testing"
 	"time"
+
+	"ip.limit.rate/internal/api/rest"
 
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"

@@ -1,8 +1,9 @@
 package rest
 
 import (
-	"awesomeProject/internal/util"
 	"net/http"
+
+	"ip.limit.rate/internal/util"
 
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"awesomeProject/internal/api/rest"
-	"awesomeProject/internal/pkg/log"
+	"ip.limit.rate/internal/api/rest"
+	"ip.limit.rate/internal/pkg/log"
 
 	"github.com/sirupsen/logrus"
 )
